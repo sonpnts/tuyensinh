@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.icon-home{
+  padding-right: 4px;
+  font-size: 19px;
+}
+#header {
+  display: flex;
+  background: url(https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/279138479_1693572061001358_6633933721634274456_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_ohc=FWW6SFFlHzoAX_Bez7e&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT_WfN0PV5HIfWg4ftW81w1qE5UJe3yCwztDOJlNKgPTjg&oe=62D708B5)
+    center/ cover no-repeat;
+  height: 400px;
+}
+
+.header-menu {
+  margin: 0 10%;
+}
+ul.menu {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+}
+
+#header .header-img {
+  display: inline-block;
+}
+ul.menu > li > a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 18px 28px;
+}
+.menu > li:hover {
+  background-color: blue;
+  display: block !important;
+}
+
+#header .sub-nav ul {
+  background-color: #ccc;
+}
+.menu li:hover .sub-nav {
+  display: block;
+}
+ul.sub-nav {
+  display: none;
+  width: 230px;
+}
+ul.sub-nav {
+  position: absolute;
+  list-style-type: none;
+}
+ul.sub-nav a {
+  text-decoration: none;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 18px 0;
+}
+ul.sub-nav li:hover a {
+  background-color: blue;
+}
+.sub-nav li {
+  background-color: #ccc;
+  text-align: center;
+}
+.footer {
+  background-color: #bd8f8fe6;
+  display: flex;
+}
+
+.footer .logo-cntt img{
+  width: 165px;
+
+}
+.footer .footer-icon {
+  max-width: 100%;
+  display: block;
+  margin-top: 12px;
+}
+.footer .part-footer {
+  width: calc(100% / 2);
+  padding: 30px 0px 30px 30px
+}
+.footer .head {
+  font-size: 20px;
+  color: #491888e6;
+  font-weight: bold;
+  margin: 12px 0;
+}
+.footer .detail {
+  margin: 12px 0;
+}
+.footer-license {
+  padding: 8px 0;
+  text-align: center;
+  font-size: 15px;
+  background-color: #f7941d;
+}
+.footer .footer-main {
+  margin-top: 12px;
+}
+.footer .sub-heading p{
+  padding-top: 12px;
+}
+.border-bottom {
+  width: 45px;
+  height: 3px;
+  opacity: 0.8;
+  background-color: #fffeffe6;
+}
