@@ -9,7 +9,7 @@
 }
 #header {
   display: flex;
-  background: url(https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/279138479_1693572061001358_6633933721634274456_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_ohc=FWW6SFFlHzoAX_Bez7e&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT_WfN0PV5HIfWg4ftW81w1qE5UJe3yCwztDOJlNKgPTjg&oe=62D708B5)
+  background: url(/assets/img/doanhoikhoa.jpg)
     center/ cover no-repeat;
   height: 400px;
 }
