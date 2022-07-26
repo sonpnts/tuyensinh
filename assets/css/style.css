@@ -2,19 +2,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-.icon-home{
+:root{
+    
+}
+.icon-home {
   padding-right: 4px;
   font-size: 19px;
 }
 #header {
   display: flex;
-  background: url(/assets/img/doanhoikhoa.jpg)
-    center/ cover no-repeat;
+  background: url(/assets/img/doanhoikhoa.jpg) center/ cover no-repeat;
   height: 400px;
 }
-
+.flex {
+  display: flex;
+}
 .header-menu {
   margin: 0 10%;
 }
@@ -102,14 +107,14 @@ div.main_contents ul {
   margin-left: 35px;
 }
 
-h4.title_lists >  span {
+h4.title_lists > span {
   margin-left: 27px;
   color: rgb(178, 34, 34);
   font-size: 100%;
 }
 
 div.list_contents ul > li > ul {
-  list-style-type:decimal;
+  list-style-type: decimal;
 }
 
 .list_contents ul > li {
@@ -156,15 +161,18 @@ div.detail_item input {
   margin-top: 10px;
 }
 
+.regis form {
+  background-color: var(--bg);
+}
+
 /*-------------------------------*/
 .footer {
   background-color: #bd8f8fe6;
   display: flex;
 }
 
-.footer .logo-cntt img{
+.footer .logo-cntt img {
   width: 165px;
-
 }
 .footer .footer-icon {
   max-width: 100%;
@@ -173,7 +181,7 @@ div.detail_item input {
 }
 .footer .part-footer {
   width: calc(100% / 2);
-  padding: 30px 0px 30px 30px
+  padding: 30px 0px 30px 30px;
 }
 .footer .head {
   font-size: 20px;
@@ -193,7 +201,7 @@ div.detail_item input {
 .footer .footer-main {
   margin-top: 12px;
 }
-.footer .sub-heading p{
+.footer .sub-heading p {
   padding-top: 12px;
 }
 .border-bottom {
