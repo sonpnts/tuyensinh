@@ -14,7 +14,7 @@
 }
 #header {
   display: flex;
-  background: url(/assets/img/doanhoikhoa.jpg) center/ cover no-repeat;
+  background: url(https://raw.githubusercontent.com/sonpnts/tuyensinh/f36960ed4b392662c9190330259a552f9271677b/assets/img/doanhoikhoa.jpg) center/ cover no-repeat;
   height: 400px;
 }
 .flex {
