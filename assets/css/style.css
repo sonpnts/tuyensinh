@@ -6,24 +6,36 @@
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 :root{
-    
+  --bg:#ccc;
 }
 .icon-home {
-  padding-right: 4px;
+  margin-right: 7px;
   font-size: 19px;
+}
+.icon{
+  margin-left: 7px;
 }
 #header {
   display: flex;
-  background: url(https://raw.githubusercontent.com/sonpnts/tuyensinh/f36960ed4b392662c9190330259a552f9271677b/assets/img/doanhoikhoa.jpg) center/ cover no-repeat;
-  height: 400px;
+  background: url(https://rraw.githubusercontent.com/sonpnts/tuyensinh/f36960ed4b392662c9190330259a552f9271677b/assets/img/doanhoikhoa.jpg)
+    center/ cover no-repeat;
 }
 .flex {
   display: flex;
 }
 .header-menu {
-  margin: 0 10%;
+  width: 100%;
+  background-color: rgb(138, 122, 194);
+}
+.header-menu > div {
+ justify-content: space-around;
+}
+.header-menu img.logo {
+  width: 150px;
+  margin-left: 120px;
 }
 ul.menu {
+  margin-top: 50px;
   display: flex;
   list-style-type: none;
   position: relative;
@@ -42,12 +54,11 @@ ul.menu > li > a {
   padding: 18px 28px;
 }
 .menu > li:hover {
-  background-color: blue;
-  display: block !important;
+  background-color: #ccc;
 }
 
 #header .sub-nav ul {
-  background-color: #ccc;
+  background-color: rgb(12, 53, 27);
 }
 .menu li:hover .sub-nav {
   display: block;
@@ -71,7 +82,8 @@ ul.sub-nav a {
   padding: 18px 0;
 }
 ul.sub-nav li:hover a {
-  background-color: blue;
+  background-color: white;
+  color: black;
 }
 .sub-nav li {
   background-color: #ccc;
@@ -102,11 +114,12 @@ h1.title_contents::after {
   margin-bottom: 10px;
   display: block;
 }
-
-div.main_contents ul {
-  margin-left: 35px;
+.main_contents .ulpad {
+  margin-left: 46px;
 }
-
+.main_contents .ulpad > li {
+  margin-left: 10px;
+}
 h4.title_lists > span {
   margin-left: 27px;
   color: rgb(178, 34, 34);
@@ -116,55 +129,72 @@ h4.title_lists > span {
 div.list_contents ul > li > ul {
   list-style-type: decimal;
 }
-
-.list_contents ul > li {
-  margin-left: 11px;
+.courses {
+  margin-bottom: 15px;
 }
-
-div.items {
-  display: flex;
+.courses div.detail a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: #ccc;
+  padding: 5px;
+  margin-top: 5px;
 }
-
-div.item {
-  width: 20%;
-  padding: 10px;
-  position: relative;
+.courses div.detail a:hover {
+  background-color: rgb(101, 36, 36);
 }
-
-div.item img {
-  max-width: 100%;
-  padding: 10px 10px 10px 0;
+.courses figcaption p {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 7px !important;
 }
-
-div.detail_item {
-  background: rgba(0, 0, 0, 0.7);
-  color: #ccc;
-  position: absolute;
-  padding: 0px 10px 0px 10px;
-  font-size: 15px;
-  top: 100%;
-  bottom: 0;
-  transition: top 1s;
-  overflow: hidden;
-}
-
-div.item:hover div.detail_item {
-  top: 0;
-  padding-top: 50px;
-}
-
-div.detail_item ul {
+.courses figcaption ul {
   list-style-type: none;
 }
+.sub-cours {
+  justify-content: center;
+  margin: 12px auto;
+}
+.sub-cour {
+  width: 25%;
+}
+.sub-cour > p {
+  margin: 5px 20px;
+  text-align: center;
+}
+.sub-cour .heading {
+  display: block;
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 5px;
+}
 
-div.detail_item input {
+figure.item {
+  width: 25%;
+  margin: 0 5px;
+}
+.detail_item input {
   margin-top: 10px;
 }
+.regis{
 
+}
 .regis form {
   background-color: var(--bg);
+  margin: 50px auto;
+  min-width: 500px;
+  padding: 16px;
+  text-align: center;
 }
-
+form p.heading{
+  font-size: 35px;
+  font-weight: 500;
+}
+form ul{
+  margin-top: 15px;
+  list-style-type: none;
+}
 /*-------------------------------*/
 .footer {
   background-color: #bd8f8fe6;
@@ -209,4 +239,13 @@ div.detail_item input {
   height: 3px;
   opacity: 0.8;
   background-color: #fffeffe6;
+}
+@keyframes info {
+  form {
+    top: 100%;
+  }
+  to {
+    top: 0%;
+  }
+  opacity: 0.6;
 }

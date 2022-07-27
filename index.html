@@ -14,57 +14,65 @@
       rel="stylesheet"
       href="./assets/icon/themify-icons/themify-icons.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div id="header">
       <div class="header-menu">
-        <ul class="menu">
-          <li>
-            <a href="http://it.ou.edu.vn">
-              <i class="ti-home icon-home"></i> Trang chủ</a
-            >
-          </li>
-          <li>
-            <a href="#">Giới thiệu</a>
-            <ul class="sub-nav">
-              <li><a href="#">Giới thiệu khoa</a></li>
-              <li><a href="#">Cơ cấu tổ chức</a></li>
-              <li><a href="#">Danh sách giảng viên</a></li>
-              <li><a href="#">Bảng vàng thành tích</a></li>
-              <li><a href="#">Thông tin cựu sinh viên</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Đào tạo</a>
-            <ul class="sub-nav">
-              <li><a href="#">Chuẩn đầu ra</a></li>
-              <li><a href="#">Chương trình đào tạo</a></li>
-              <li><a href="#">Đề cương môn học</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Tuyển sinh</a>
-            <ul class="sub-nav">
-              <li><a href="#">Tuyển sinh Đại học 2022</a></li>
-              <li><a href="#">Tuyển sinh Cao học 2022</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Tin Tức - Thông Báo</a>
-            <ul class="sub-nav">
-              <li><a href="#">Thông báo đào tạo</a></li>
-              <li><a href="#">Thông báo sinh viên</a></li>
-              <li><a href="#">Tin tức - sự kiện</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Đoàn hội</a>
-          </li>
-          <li>
-            <a href="#">Liên hệ</a>
-          </li>
-          <li><a href="#">Biểu mẫu</a></li>
-        </ul>
+        <div class="flex">
+          <img src="./assets/img/logo-cntt.png" alt="CNTT" class="logo">
+          <ul class="menu">
+            <li>
+              <a href="http://it.ou.edu.vn">
+                <i class="fa-solid fa-house icon-home"></i>Trang chủ</a
+              >
+            </li>
+            <li>
+              <a href="#">Giới thiệu<i class="fa-light fa-angle-down icon"></i></a>
+              <ul class="sub-nav">
+                <li><a href="#">Giới thiệu khoa</a></li>
+                <li><a href="#">Cơ cấu tổ chức</a></li>
+                <li><a href="#">Danh sách giảng viên</a></li>
+                <li><a href="#">Bảng vàng thành tích</a></li>
+                <li><a href="#">Thông tin cựu sinh viên</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Đào tạo</a>
+              <ul class="sub-nav">
+                <li><a href="#">Chuẩn đầu ra</a></li>
+                <li><a href="#">Chương trình đào tạo</a></li>
+                <li><a href="#">Đề cương môn học</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Tuyển sinh</a>
+              <ul class="sub-nav">
+                <li><a href="#">Tuyển sinh Đại học 2022</a></li>
+                <li><a href="#">Tuyển sinh Cao học 2022</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Tin Tức - Thông Báo</a>
+              <ul class="sub-nav">
+                <li><a href="#">Thông báo đào tạo</a></li>
+                <li><a href="#">Thông báo sinh viên</a></li>
+                <li><a href="#">Tin tức - sự kiện</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Đoàn hội</a>
+            </li>
+            <li>
+              <a href="#">Liên hệ</a>
+            </li>
+            <li><a href="#">Biểu mẫu</a></li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="main_contents">
@@ -74,7 +82,7 @@
         <span>ĐỐI TƯỢNG TUYỂN SINH</span>
       </h1>
       <div class="list_contents">
-        <ul>
+        <ul class="ulpad">
           <li>Tốt nghiệp chương trình THPT của Việt Nam.</li>
           <li>Tốt nghiệp trình độ trung cấp.</li>
           <li>Tốt nghiệp chương trình THPT ở nước ngoài.</li>
@@ -89,7 +97,7 @@
         <h4 class="title_lists">
           <span>Phương thức 1:</span>
         </h4>
-        <ul>
+        <ul class="ulpad">
           <li>Xét tuyển thẳng theo quy chế tuyển sinh của Bộ GD-ĐT</li>
         </ul>
       </div>
@@ -98,7 +106,7 @@
         <h4 class="title_lists">
           <span>Phương thức 2:</span>
         </h4>
-        <ul>
+        <ul class="ulpad">
           <li>Xét tuyển theo kết quả thi tốt nghiệp THPT năm 2022</li>
         </ul>
       </div>
@@ -107,10 +115,10 @@
         <h4 class="title_lists">
           <span>Phương thức 3:</span>
         </h4>
-        <ul>
+        <ul class="ulpad">
           <li>
             <span> Ưu tiên xét tuyển đối với thí sinh có: </span>
-            <ul>
+            <ul class="ulpad">
               <li>
                 Dựa trên bài thi tú tài quốc tế (IB) tổng điểm 26 trở lên.
               </li>
@@ -129,7 +137,7 @@
         <h4 class="title_lists">
           <span>Phương thức 4:</span>
         </h4>
-        <ul>
+        <ul class="ulpad">
           <li>Ưu tiên xét tuyển HSG THPT</li>
         </ul>
       </div>
@@ -138,7 +146,7 @@
         <h4 class="title_lists">
           <span>Phương thức 5:</span>
         </h4>
-        <ul>
+        <ul class="ulpad">
           <li>Ưu tiên xét tuyển học bạ có chứng chỉ ngoại ngữ</li>
         </ul>
       </div>
@@ -147,7 +155,7 @@
         <h4 class="title_lists">
           <span>Phương thức 6:</span>
         </h4>
-        <ul>
+        <ul class="ulpad">
           <li>Xét tuyển kết quả học tập THPT (Học bạ)</li>
         </ul>
       </div>
@@ -156,96 +164,115 @@
         <span>CÁC NGÀNH ĐÀO TẠO</span>
       </h1>
       <div class="courses">
-        <div class="items">
-          <div class="item">
-            <div>
-              <img
-                src="assets/img/hệ thống thông tin quản lý.png"
-                alt="Hệ thống thông tin quản lý"
-              />
-            </div>
-
-            <div class="detail_item">
-              <h4>Hệ thống thông tin quản lý</h4>
-              <ul>
-                <li>Mã ngành: 7340405</li>
-                <li>Tổ hợp xét tuyển: A00, A01, D01</li>
-              </ul>
-              <input type="button" value="Xem chi tiết" />
-            </div>
+        <div class="flex sub-cours">
+          <div class="sub-cour">
+            <p class="heading">HỆ THỐNG THÔNG TIN QUẢN LÝ</p>
           </div>
-          <div class="item">
-            <div>
+          <div class="sub-cour">
+            <p class="heading">KHOA HỌC MÁY TÍNH</p>
+          </div>
+          <div class="sub-cour">
+            <p class="heading">CÔNG NGHỆ THÔNG TIN</p>
+          </div>
+          <div class="sub-cour">
+            <p class="heading">CÔNG NGHỆ THÔNG TIN (CLC)</p>
+          </div>
+        </div>
+        <div class="flex">
+          <figure
+            class="item c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom"
+          >
+            <img
+              src="assets/img/hệ thống thông tin quản lý.png"
+              alt="Hệ thống thông tin quản lý"
+            />
+            <figcaption class="c4-layout-top-right">
               <div>
-                <img
-                  src="assets/img/khoa hoc may tinh.jpg"
-                  alt="Khoa học máy tính"
-                />
+                <p>Hệ thống thông tin quản lý</p>
               </div>
+              <div class="c4-reveal-left c4-delay-200">
+                <ul>
+                  <li>Mã ngành: 7340405</li>
+                  <li>Tổ hợp xét tuyển: A00, A01, D01</li>
+                </ul>
+              </div>
+              <div class="detail c4-reveal-left c4-delay-400">
+                <a href="#" target="_blank">Xem chi tiết</a>
+              </div>
+            </figcaption>
+          </figure>
 
-              <div class="detail_item">
+          <!--khoa hoc may tinh-->
+          <figure
+            class="item c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom"
+          >
+            <img
+              src="assets/img/khoa hoc may tinh.jpg"
+              alt="Khoa học máy tính"
+            />
+            <figcaption class="c4-layout-top-right">
+              <div>
+                <p>Khoa học máy tính</p>
+              </div>
+              <div class="c4-reveal-left c4-delay-200">
                 <ul>
                   <li>Mã ngành: 7480101</li>
                   <li>Tổ hợp xét tuyển: A00, A01, D01</li>
                 </ul>
-                <input type="button" value="Xem chi tiết" />
               </div>
-            </div>
-          </div>
-          <div class="item">
-            <div>
-              <div>
-                <img src="assets/img/CNTT.png" alt="Công nghệ thông tin" />
+              <div class="detail c4-reveal-left c4-delay-400">
+                <a href="#" target="_blank">Xem chi tiết</a>
               </div>
+            </figcaption>
+          </figure>
 
-              <div class="detail_item">
+          <!--Công nghệ thông tin-->
+
+          <figure
+            class="item c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom"
+          >
+            <img src="assets/img/CNTT.png" alt="ông nghệ thông tin" />
+            <figcaption class="c4-layout-top-right">
+              <div>
+                <p>Công nghệ thông tin</p>
+              </div>
+              <div class="c4-reveal-left c4-delay-200">
                 <ul>
                   <li>Mã ngành: 7480201</li>
                   <li>Tổ hợp xét tuyển: A00, A01, D01</li>
                 </ul>
-                <input type="button" value="Xem chi tiết" />
               </div>
-            </div>
-          </div>
-          <div class="item">
-            <div>
-              <div>
-                <img
-                  src="assets/img/CNTT_CLC.png"
-                  alt="Công nghệ thông tin (Chất Lượng Cao)"
-                />
+              <div class="detail c4-reveal-left c4-delay-400">
+                <a href="#" target="_blank">Xem chi tiết</a>
               </div>
+            </figcaption>
+          </figure>
 
-              <div class="detail_item">
+          <!--Công nghệ thông tin (Chất Lượng Cao)-->
+          <figure
+            class="item c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom"
+          >
+            <img
+              src="assets/img/CNTT_CLC.png"
+              alt="Công nghệ thông tin (Chất Lượng Cao)"
+            />
+            <figcaption class="c4-layout-top-right">
+              <div>
+                <p>Công nghệ thông tin (Chất Lượng Cao)</p>
+              </div>
+              <div class="c4-reveal-left c4-delay-200">
                 <ul>
                   <li>Mã ngành: 7480101C</li>
                   <li>Tổ hợp xét tuyển: A00, A01, D01</li>
                 </ul>
-                <input type="button" value="Xem chi tiết" />
               </div>
-            </div>
-          </div>
-          <div class="item">
-            <div>
-              <div>
-                <img
-                  src="assets/img/CNTT_Japan.png"
-                  alt="Công nghệ thông tin tăng cường tiếng Nhật"
-                />
+              <div class="detail c4-reveal-left c4-delay-400">
+                <a href="#" target="_blank">Xem chi tiết</a>
               </div>
-
-              <div class="detail_item">
-                <ul>
-                  <li>Mã ngành: 7480201</li>
-                  <li>Tổ hợp xét tuyển: A00, A01, D01</li>
-                </ul>
-                <input type="button" value="Xem chi tiết" />
-              </div>
-            </div>
-          </div>
+            </figcaption>
+          </figure>
         </div>
       </div>
-
       <div class="regis flex">
         <div class="intro">
           <iframe
@@ -259,11 +286,22 @@
           ></iframe>
         </div>
         <form>
-          <p>ĐĂNG KÝ TƯ VẤN</p>
+          <p class="heading">ĐĂNG KÝ TƯ VẤN</p>
+          <ul>
+            <li>
+              <input type="text" placeholder="Họ và tên *" />
+            </li>
+            <li>
+              <input type="text" placeholder="Số điện thoại *" />
 
-          <input type="text" placeholder="Họ và tên *" />
-          <input type="text" placeholder="Số điện thoại *"/>
-          <input type="radio">
+            </li>
+            <li>
+
+            </li>
+            <li></li>
+            <li></li>
+          </ul>
+      
         </form>
       </div>
     </div>
