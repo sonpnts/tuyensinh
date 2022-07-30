@@ -18,13 +18,19 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div id="header">
       <div class="header-menu">
         <div class="flex">
-          <img src="./assets/img/logo-cntt.png" alt="CNTT" class="logo">
+          <img src="./assets/img/logo-cntt.png" alt="CNTT" class="logo" />
           <ul class="menu">
             <li>
               <a href="http://it.ou.edu.vn">
@@ -32,7 +38,9 @@
               >
             </li>
             <li>
-              <a href="#">Giới thiệu<i class="fa-light fa-angle-down icon"></i></a>
+              <a href="#"
+                >Giới thiệu<i class="fa-solid fa-chevron-down icon"></i
+              ></a>
               <ul class="sub-nav">
                 <li><a href="#">Giới thiệu khoa</a></li>
                 <li><a href="#">Cơ cấu tổ chức</a></li>
@@ -42,7 +50,9 @@
               </ul>
             </li>
             <li>
-              <a href="#">Đào tạo</a>
+              <a href="#"
+                >Đào tạo <i class="fa-solid fa-chevron-down icon"></i>
+              </a>
               <ul class="sub-nav">
                 <li><a href="#">Chuẩn đầu ra</a></li>
                 <li><a href="#">Chương trình đào tạo</a></li>
@@ -50,14 +60,19 @@
               </ul>
             </li>
             <li>
-              <a href="#">Tuyển sinh</a>
+              <a href="#"
+                >Tuyển sinh <i class="fa-solid fa-chevron-down icon"></i
+              ></a>
               <ul class="sub-nav">
                 <li><a href="#">Tuyển sinh Đại học 2022</a></li>
                 <li><a href="#">Tuyển sinh Cao học 2022</a></li>
               </ul>
             </li>
             <li>
-              <a href="#">Tin Tức - Thông Báo</a>
+              <a href="#"
+                >Tin Tức - Thông Báo
+                <i class="fa-solid fa-chevron-down icon"></i
+              ></a>
               <ul class="sub-nav">
                 <li><a href="#">Thông báo đào tạo</a></li>
                 <li><a href="#">Thông báo sinh viên</a></li>
@@ -274,10 +289,8 @@
         </div>
       </div>
       <div class="regis flex">
-        <div class="intro">
+        <div class="left">
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/6F6RGmVvfdM"
             title="YouTube video player"
             frameborder="0"
@@ -285,24 +298,53 @@
             allowfullscreen
           ></iframe>
         </div>
-        <form>
-          <p class="heading">ĐĂNG KÝ TƯ VẤN</p>
-          <ul>
-            <li>
-              <input type="text" placeholder="Họ và tên *" />
-            </li>
-            <li>
-              <input type="text" placeholder="Số điện thoại *" />
-
-            </li>
-            <li>
-
-            </li>
-            <li></li>
-            <li></li>
-          </ul>
-      
-        </form>
+        <div class="right">
+          <form>
+            <p class="heading">ĐĂNG KÝ TƯ VẤN</p>
+            <ul>
+              <li>
+                <input class="input" type="text" placeholder="Họ và tên *" />
+              </li>
+              <li>
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Số điện thoại *"
+                />
+              </li>
+              <li>
+                <input class="input" type="text" placeholder="Email" />
+              </li>
+              <li>
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Link Facebook của bạn"
+                />
+              </li>
+              <li>
+                <select class="input">
+                  <option value="Chọn ngành học" selected="selected">
+                    Chọn ngành học
+                  </option>
+                  <option value="Công nghệ thông tin">
+                    Công nghệ thông tin
+                  </option>
+                  <option value="Khoa học máy tính">Khoa học máy tính</option>
+                  <option value="Hệ thống thông tin quản lý">
+                    Hệ thống thông tin quản lý
+                  </option>
+                  <option value="Công nghệ thông tin">
+                    Công nghệ thông tin
+                  </option>
+                </select>
+              </li>
+              <li>
+                <button>Đăng ký</button>
+              </li>
+            </ul>
+          </form>
+        </div>
       </div>
     </div>
     <div class="footer">
