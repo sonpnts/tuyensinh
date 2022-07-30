@@ -185,20 +185,26 @@ figure.item {
   margin-top: 10px;
 }
 .regis{
-  align-items: center;
   background-color: #9474bee6;
+  margin: 12px auto;
+  align-items: center;
+
 }
 .regis .left{
-  margin: 0 auto;
+  width: 50%;
+} 
+.regis iframe{
+  padding: 20px;
 }
 .regis .right{
-  margin: 50px auto;
+  width: 45%;
 }
 .regis form {
+  margin: 50px 20px;
   background-color: var(--bg);
-  width: 100%;
-  padding: 16px;
+  padding: 20px;
   text-align: center;
+
 }
 form p.heading{
   margin-top: 40px;
