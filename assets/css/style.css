@@ -9,7 +9,7 @@
 }
 @font-face{
   font-family: Myfont;
-  src:url(/assets/font/Nunito-font/Nunito-VariableFont_wght.ttf)
+  src:url(../font/Nunito-font/Nunito-VariableFont_wght.ttf)
 }
 .icon-home {
   margin-right: 7px;
