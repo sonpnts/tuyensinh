@@ -25,6 +25,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/java.js"></script>
   </head>
   <body>
     <div id="header">
@@ -91,8 +93,10 @@
       </div>
     </div>
     <div class="main_contents">
-      <div class="title_header"></div>
-
+      <div class="title_header">
+        <p>KHOA CÔNG NGHỆ THÔNG TIN TRƯỜNG ĐẠI HỌC MỞ TP-HCM</p>
+        <p>THÔNG BÁO TUYỂN SINH ĐẠI HỌC CHÍNH QUY NĂM 2022</p>
+      </div>
       <h1 class="title_contents">
         <span>ĐỐI TƯỢNG TUYỂN SINH</span>
       </h1>
@@ -236,7 +240,11 @@
                 </ul>
               </div>
               <div class="detail c4-reveal-left c4-delay-400">
-                <a href="https://sonpnts.github.io/detail-khoahocmaytinh/" target="_blank">Xem chi tiết</a>
+                <a
+                  href="https://sonpnts.github.io/detail-khoahocmaytinh/"
+                  target="_blank"
+                  >Xem chi tiết</a
+                >
               </div>
             </figcaption>
           </figure>
@@ -258,7 +266,11 @@
                 </ul>
               </div>
               <div class="detail c4-reveal-left c4-delay-400">
-                <a href="https://sonpnts.github.io/detail-congnghethongtin/" target="_blank">Xem chi tiết</a>
+                <a
+                  href="https://sonpnts.github.io/detail-congnghethongtin/"
+                  target="_blank"
+                  >Xem chi tiết</a
+                >
               </div>
             </figcaption>
           </figure>
@@ -290,15 +302,10 @@
       </div>
       <div class="regis flex">
         <div class="left">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/6F6RGmVvfdM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <div class="img-yt">
+            <img src="./assets/img/youtube.png" alt="intro" />
+            <span class="button-yt fa-brands fa-youtube"></span>
+          </div>
         </div>
         <div class="right">
           <form>
@@ -346,6 +353,24 @@
               </li>
             </ul>
           </form>
+        </div>
+      </div>
+    </div>
+    <div class="play-yt">
+      <div class="content">
+        <button id="close">
+          <i class="fa-solid fa-xmark icon-close"></i>
+        </button>
+        <div>
+          <iframe
+            width="853"
+            height="480"
+            src="https://www.youtube.com/embed/6F6RGmVvfdM?autoplay=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </div>
