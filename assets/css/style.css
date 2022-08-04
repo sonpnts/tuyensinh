@@ -103,21 +103,23 @@ ul.sub-nav li:hover a {
 }
 div.title_header{
   text-align: center;
-  margin-top: 12px;
 }
 div.title_header > p{
   font-family: 'Times New Roman', Times, serif !important;
   font-weight: bold;
 }
 div.title_header > p:first-child{
+  margin-top: 40px;
   font-size: 20px;
   color: rgb(38 38 72);
-
 }
 div.title_header > p:last-child{
   font-size: 30px;
   margin: 24px 0;
   color: #841313;
+}
+.main_contents div.content{
+  margin-top:4rem;
 }
 h1.title_contents > span {
   display: block;
@@ -205,6 +207,7 @@ figure.item {
   background-color: #9474bee6;
   margin: 12px auto;
   align-items: center;
+  
 }
 .regis div.img-yt {
   position: relative;
@@ -279,6 +282,10 @@ button#close{
   background-color: var(--bg);
   padding: 20px;
   text-align: center;
+  border-radius: 2rem;
+}
+.regis form button{
+  border-radius: 5px;
 }
 form p.heading {
   margin-top: 40px;
