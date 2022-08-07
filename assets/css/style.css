@@ -33,7 +33,7 @@
 
 .header-menu {
   width: 100%;
-  background-color: rgb(138, 122, 194);
+  background-color: #fff;
 }
 .header-menu > div {
   justify-content: space-around;
@@ -54,14 +54,15 @@ ul.menu {
 ul.menu > li > a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: #4E6044;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   padding: 18px 28px;
 }
 .menu > li:hover {
-  background-color: #ccc;
+  border-radius: 5px;
+  background-color: #FFB85F;
 }
 
 #header .sub-nav ul {
@@ -73,29 +74,43 @@ ul.menu > li > a {
 ul.sub-nav {
   display: none;
   width: 230px;
+  box-shadow: 1px 1px 15px rgb(0 0 0 / 20%);
 }
 ul.sub-nav {
   position: absolute;
   list-style-type: none;
+
+}
+ul.sub-nav li:first-child
+{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+ul.sub-nav li:last-child
+{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 ul.sub-nav a {
   text-decoration: none;
   display: block;
   text-decoration: none;
-  color: white;
+  color: #000;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   padding: 18px 0;
 }
 ul.sub-nav li:hover a {
-  background-color: white;
+  background-color: #FFB85F;
   color: black;
 }
 .sub-nav li {
-  background-color: #ccc;
+  background-color: #fff;
   text-align: center;
+  padding: 12px 0;
 }
+
 /*-------------------------------*/
 .main_contents {
   width: 80%;
