@@ -15,6 +15,14 @@
   font-family: Myfont;
   src: url(../font/Nunito-font/Nunito-VariableFont_wght.ttf);
 }
+#bar{
+  font-size: 24px;
+  padding: 5px;
+  background-color: #ccc;
+  text-align: right;
+  cursor: pointer;
+  display: none;
+}
 .icon-home {
   margin-right: 7px;
   font-size: 19px;
@@ -129,7 +137,7 @@ ul.sub-nav li:hover a {
 
 /*-------------------------------*/
 .main_contents {
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
 }
 div.title_header {

@@ -1,0 +1,88 @@
+#bar {
+  display: block;
+}
+.footer,
+ul.menu {
+  flex-direction: column;
+}
+.menu-scroll {
+  display: none !important;
+}
+ul.menu,
+img.logo {
+  display: none;
+}
+ul.menu a,
+.new ul.list a {
+  font-size: 12px !important;
+}
+ul.menu a {
+  text-align: center;
+}
+ul.menu {
+  margin-top: 0px;
+}
+div.title_header > p:first-child {
+  margin-top: 0px;
+  font-size: 16px;
+  color: rgb(48 48 169);
+}
+div.title_header > p:last-child {
+  font-size: 26px;
+  margin: 13px 0;
+  color: #7d3939;
+}
+h1.title_contents > span {
+    font-size: 15px;
+    width: 48%;
+}
+.main_contents .ulpad {
+    margin-left: 33px;
+}
+.main_contents div.content {
+    margin-top: 2rem;
+}
+.sub-cours{
+    flex-direction: column;
+    display: none;
+}
+.detail-cour {
+    flex-direction: column;
+}
+figure.item {
+    width: 99%;
+    margin: 15px 0;
+}
+.regis {
+margin: -15px auto;
+flex-direction: column;
+}
+.regis .left {
+    width: 94%;
+    padding: 95px 0 0;
+}
+.regis .button-yt {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    font-size: 57px;
+}
+div.play-yt {
+    padding-top: 120px;
+}
+.regis .right {
+    width: 100%;
+}
+.icon-hand,
+.footer .head {
+  font-size: 18px;
+}
+.footer .part-footer {
+  width: 95%;
+  padding: 30px 0px 3px 30px;
+}
+.footer-license {
+  font-size: 13px;
+  background-color: #2f2923;
+  color: #fff;
+}
