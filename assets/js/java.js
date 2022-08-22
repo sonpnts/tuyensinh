@@ -28,10 +28,8 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if($(this).scrollTop()){
             $(".menu-scroll").fadeIn();
-            $("#header").fadeOut();
         }else{
             $(".menu-scroll").fadeOut();
-            $("#header").fadeIn();
         }
     })
     $("#bar").click(function(){
